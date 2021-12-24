@@ -40,9 +40,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-*node_modules/
-*jspm_packages/
-*package-lock.json
 
 # TypeScript v1 declaration files
 typings/
@@ -73,7 +70,6 @@ typings/
 
 # dotenv environment variables file
 .env
-*.env
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
